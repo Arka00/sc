@@ -217,8 +217,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 │▸⭔ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 │▸⭔ *スパムしないでください*
 ╰────────────────⬣`,
-                        "footerText": "Jika menemukan bug, error mohon dimaklumi dulu🙏.",
-                        "buttonText": "*Click Here*",
+                        "footerText": "©Nanzz",
+                        "buttonText": "Click Here",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
@@ -492,18 +492,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat dinihari🌌"
+  res = "Selamat dinihari"
   if (time >= 4) {
-    res = "Selamat pagi🌅"
+    res = "Selamat pagi"
   }
   if (time > 10) {
-    res = "Selamat siang🏙️"
+    res = "Selamat siang"
   }
   if (time >= 15) {
-    res = "Selamat sore🌇"
+    res = "Selamat sore"
   }
   if (time >= 18) {
-    res = "Selamat malam🌃"
+    res = "Selamat malam"
   }
   return res
 }
