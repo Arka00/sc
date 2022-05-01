@@ -1,5 +1,5 @@
 # sc bot wa
-Simple Rpg WhatsApp Bot 
+Simple WhatsApp Bot 
  
 
 ## Join Group 
