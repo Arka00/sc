@@ -30,7 +30,7 @@ Gopay: 082140059454
     conn.sendMessage(m.chat, button, MessageType.listMessage, { quoted: m })
 }
 handler.tags = ['main']
-handler.command = /^(sewa)$/i
+handler.command = /^(sewa|sewabot)$/i
 handler.help = ['sewa']
 module.exports = handler
 //Haruno Bot
