@@ -35,7 +35,7 @@ module.exports = {
             if (!isNumber(user.level)) user.level = 0
             if (!isNumber(user.exp)) user.exp = 0
             if (!isNumber(user.title)) user.title = 'Nothing'
-            if (!isNumber(user.limit)) user.limit = 15
+            if (!isNumber(user.limit)) user.limit = 10
             if (!isNumber(user.lastclaim)) user.lastclaim = 0
             if (!isNumber(user.lastgetmoney)) user.lastgetmoney = 0
             if (!isNumber(user.money)) user.money = 12000
@@ -138,7 +138,7 @@ module.exports = {
             level: 0,
             title: 'Nothing',
             exp: 0,
-            limit: 15,
+            limit: 10,
             lastclaim: 0,
             lastgetmoney: 0,
             money: 12000,
@@ -268,7 +268,7 @@ module.exports = {
           if (!'anticall' in settings) settings.anticall = true
           if (!'antispam' in settings) settings.antispam = true
           if (!'antitroli' in settings) settings.antitroli = true
-          if (!'backup' in settings) settings.backup = true
+          if (!'backup' in settings) settings.backup = false
           if (!isNumber(settings.backupDB)) settings.backupDB = 0
           if (!'groupOnly' in settings) settings.groupOnly = false
           if (!'jadibot' in settings) settings.groupOnly = false
@@ -279,7 +279,7 @@ module.exports = {
           anticall: true,
           antispam: true,
           antitroli: true,
-          backup: true,
+          backup: false,
           backupDB: 0,
           groupOnly: false,
           jadibot: false,
