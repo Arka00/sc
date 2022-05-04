@@ -10,7 +10,7 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm i && npm update && npm i ffmpeg && node .
+RUN node .
 
 COPY . .
 
